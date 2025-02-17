@@ -5,7 +5,6 @@
  - Extract the zip file
 
  - 2024201043_assignment2
-        
     .
     - ├── generator.py
     - ├── README.md
