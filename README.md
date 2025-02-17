@@ -7,9 +7,9 @@
  - 2024201043_assignment2
         
     .
-    ├── generator.py
-    ├── README.md
-    └── Report.pdf
+    - ├── generator.py
+    - ├── README.md
+    - └── Report.pdf
 
 0 directories, 3 files
 
