@@ -1,30 +1,31 @@
 # Generates Next Word Predictions Based On Trained Language Models
 
-**Directory Structure** 
- - Download the 2024201043_assignment2.zip file
- - Extract the zip file
+## Directory Structure
+```
+2024201043_assignment2
+├── generator.py
+├── README.md
+└── Report.pdf
+```
 
- - 2024201043_assignment2
-    - .
-    - ├── generator.py
-    - ├── README.md
-    - └── Report.pdf
-
-0 directories, 3 files
-
-## To run generator.py
+## To Run `generator.py`
+```
 python3 generator.py <lm_type> <corpus_path> <k>
+```
 
-    lm_types supported-
-    -f : for FFNN Language Model
-    -r : for RNN Language Model
-    -l : for LSTM Language Model
+### Supported `lm_type` Options:
+- `-f` : FFNN Language Model
+- `-r` : RNN Language Model
+- `-l` : LSTM Language Model
 
-## Drive link for downloading the pretrained .pt files-
-https://drive.google.com/drive/folders/1NZzlmK-QWMLMXsro1XCm6QXbY0EhX930?usp=sharing - Ulysses
+## Pretrained Model Files
+Download the pretrained `.pt` files from the following links:
 
-https://drive.google.com/drive/folders/1lCracqoulDcjuF9qikS4aF1uR5vDIqyv?usp=sharing - Pride&Prejudice
+- [Ulysses](https://drive.google.com/drive/folders/1NZzlmK-QWMLMXsro1XCm6QXbY0EhX930?usp=sharing)
+- [Pride & Prejudice](https://drive.google.com/drive/folders/1lCracqoulDcjuF9qikS4aF1uR5vDIqyv?usp=sharing)
 
 ## Instructions
-Keep the pretrained file you want to run on in the same directory as the generator.py
-Context sizes and .pth file names needs to be modified in "__main__" whereever necessary for testing on various context sizes.
+1. Place the pretrained `.pt` file in the same directory as `generator.py`.
+2. Modify context sizes and `.pth` file names in the `__main__` section of `generator.py` to test various context sizes.
+3. Ensure that any required dependencies are installed before running the script.
+
