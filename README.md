@@ -1,7 +1,8 @@
 # Generates Next Word Predictions Based On Trained Language Models
 
-** Directory Structure ** -> Download the 2024201043_assignment2.zip file
-Extract the zip file
+** Directory Structure ** 
+ - Download the 2024201043_assignment2.zip file
+ - Extract the zip file
 
 2024201043_assignment2
 .
