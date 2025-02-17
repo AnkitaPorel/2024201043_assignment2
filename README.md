@@ -1,6 +1,6 @@
 # Generates Next Word Predictions Based On Trained Language Models
 
-** Directory Structure ** 
+**Directory Structure** 
  - Download the 2024201043_assignment2.zip file
  - Extract the zip file
 
